@@ -13,8 +13,6 @@ var (
 
 func init() {
 	config := torrent.DefaultConfig
-	config.DataDir = Root + "/torrents/"
-	config.Database = Root + "/torrents.db"
 	client, err := torrent.NewSession(config)
 	if err != nil {
 		log.Fatal(err)
