@@ -1,0 +1,2 @@
+# QBTBot
+Torrent Mirror Bot
