@@ -1,0 +1,25 @@
+{
+    "name": "Mirror Bot",
+    "description": "A Torrent Mirror Bot.",
+    "logo": "https://telegra.ph/file/e1e8299d68ada01e98c5a.jpg",
+    "keywords": [
+       "Golang",
+       "Telegram",
+       "tg",
+       "Shell",
+       "Bittorrent"
+    ],   
+ "repository": "https://github.com/Amarnathcdj/qbtbot",
+ "buildpacks": [
+  {
+    "url": "heroku/python"
+  }     
+],      
+ "env": {
+    "TOKEN": {
+       "description": "Your bot token. Get one from @BotFather duh",
+       "required": true,
+       "value": ""
+    }
+ }
+}
