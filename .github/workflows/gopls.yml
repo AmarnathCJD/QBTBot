@@ -20,7 +20,6 @@ jobs:
           go mod tidy -compat=1.18
           gofmt -l -s -w .
           go vet
-          go mod vendor
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'RoseLoverX: auto fixes'
